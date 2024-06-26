@@ -5,7 +5,7 @@ import styles from '../styles/Chat.module.css';
 import * as dotenv from 'dotenv'; 
 
 dotenv.config();
-const backend = process.env.BACKEND || 'http://127.0.0.1:4000';
+const backend = process.env.BACKEND;
 
 const socket = io(backend, { transports: ['websocket'] });
 
