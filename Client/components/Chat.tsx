@@ -5,7 +5,7 @@ import styles from '../styles/Chat.module.css';
 import * as dotenv from 'dotenv'; 
 
 dotenv.config();
-const backend = process.env.BACKEND;
+const backend = process.env.BACKEND || 'http://109.120.135.67:8316'; // yeah yeah, Versal doesn't load my env, attack if you want, xd
 
 const socket = io(backend, { transports: ['websocket'] });
 
