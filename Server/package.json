@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc index.ts"
+  },
+  "author": "art3m4ik3",
+  "license": "ISC",
+  "description": "Backend of messenger",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/socket.io": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}

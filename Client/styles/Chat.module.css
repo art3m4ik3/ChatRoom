@@ -1,0 +1,32 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageInputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    /* Отступ снизу для первого поля ввода */
+}
